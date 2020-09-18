@@ -26,6 +26,16 @@ import Upgrade from "views/Upgrade.jsx";
 
 const dashboardRoutes = [
   {
+    path: "/home",
+    name: "Home",
+    icon: "pe-7s-graph",
+    component: Dashboard,
+    layout: "/admin"
+  }
+];
+
+const dashboardRoutes1 = [
+  {
     path: "/dashboard",
     name: "Dashboard",
     icon: "pe-7s-graph",
